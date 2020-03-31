@@ -1,0 +1,66 @@
+
+body  { background-color: #F4F4F4;
+
+}
+
+hr {
+  border-color: #5F6CAF;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+
+}
+h1
+{
+  letter-spacing: 5px;
+  text-align: center;
+  text-decoration: underline;
+  color:#5F6CAF;
+
+}
+h2
+{
+  letter-spacing: 5px;
+  text-align: justify;
+  text-decoration:underline;
+  color:#5F6CAF;
+}
+h3
+{
+  letter-spacing: 3px;
+  text-align: justify;
+  text-decoration: underline;
+  color:#5F6CAF;
+}
+.uppercase
+{
+  text-transform: uppercase;
+}
+.lowercase
+{
+  text-transform: lowercase;
+}
+.capitalize
+{
+  text-transform: capitalize;
+}
+p:active
+{
+  text-indent: 50px;
+  background: #d45079;
+}
+
+a:active {
+color: yellow;
+}
+
+a:hover
+{
+  color: #d45079;
+}
+.interesting::after
+{
+  content: " WOW!";
+  color: #fe346e;
+}
